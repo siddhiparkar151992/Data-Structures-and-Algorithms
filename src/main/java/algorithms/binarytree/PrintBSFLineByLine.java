@@ -1,0 +1,36 @@
+package main.java.algorithms.binarytree;
+
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class PrintBSFLineByLine {
+	public void printGivenOrder(BinaryTree tree) {
+		Queue<Node> queue = new LinkedList<>();
+		queue.add(tree.root);
+		while (queue.size() > 0) {
+			int n = queue.size();
+			while (n > 0) {
+				Node current = queue.poll();
+				System.out.print(current.root);
+				if (current.left != null)
+					queue.add(current.left);
+				if (current.right != null)
+					queue.add(current.right);
+				n-=1;
+			}
+			System.out.println();
+		}
+	}
+
+	public static void main(String[] args) {
+		BinaryTree tree = new BinaryTree();
+        tree.root = new Node(1);
+        tree.root.left = new Node(2);
+        tree.root.right = new Node(3);
+        tree.root.left.left = new Node(4);
+        tree.root.left.right = new Node(5);
+        System.out.println(tree.size());
+//        PrintBSFLineByLine p = new PrintBSFLineByLine();
+//        p.printGivenOrder(tree);
+	}
+}

@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 
-import com.sun.xml.internal.bind.v2.schemagen.xmlschema.List;
 
 public class FormBiggestNumberFromArray {
 	

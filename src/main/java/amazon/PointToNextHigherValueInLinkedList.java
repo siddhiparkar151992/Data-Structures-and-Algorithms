@@ -2,7 +2,6 @@ package main.java.amazon;
 
 import main.java.algorithms.linkedlist.LinkedList;
 import main.java.algorithms.linkedlist.Node;
-import sun.launcher.resources.launcher_zh_TW;
 
 public class PointToNextHigherValueInLinkedList {
 

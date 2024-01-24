@@ -1,6 +1,5 @@
 package main.java.algorithms.arrays;
 
-import com.sun.beans.finder.FieldFinder;
 
 public class PairWithSumInArray {
 	

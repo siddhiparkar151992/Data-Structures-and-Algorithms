@@ -6,7 +6,7 @@
 
 # BlueJ files
 *.ctxt
-.workspace*
+workspace*
 *.class
 bin
 .idea

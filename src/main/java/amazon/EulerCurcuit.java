@@ -1,8 +1,8 @@
 package main.java.amazon;
 
-import java.util.Iterator;
-
 import main.java.algorithms.graph.Graph;
+
+import java.util.Iterator;
 
 public class EulerCurcuit {
 
@@ -22,8 +22,8 @@ public class EulerCurcuit {
 	}
 
 	Graph getTranspose() {
-		Graph g = new Graph(graph.noOfVertices);
-		for (int v = 0; v < graph.noOfVertices; v++) {
+		Graph g = new Graph(graph.V);
+		for (int v = 0; v < graph.V; v++) {
 			// Recur for all the vertices adjacent to this vertex
 			Iterator<Integer> i = graph.adj[v].listIterator();
 			while (i.hasNext()) {
@@ -35,18 +35,18 @@ public class EulerCurcuit {
 	}
 
 	public boolean isSC() {
-		boolean[] visited = new boolean[graph.noOfVertices];
-		for (int i = 0; i < graph.noOfVertices; i++) {
+		boolean[] visited = new boolean[graph.V];
+		for (int i = 0; i < graph.V; i++) {
 			visited[i] = false;
 		}
 		DFS(visited, 0);
-		for (int i = 0; i < graph.noOfVertices; i++)
+		for (int i = 0; i < graph.V; i++)
 			if (visited[i] == false)
 				return false;
 		Graph gr = getTranspose();
 		graph = gr;
 		DFS(visited, 0);
-		for (int i = 0; i < graph.noOfVertices; i++)
+		for (int i = 0; i < graph.V; i++)
 			if (visited[i] == false)
 				return false;
 		return true;
@@ -57,7 +57,7 @@ public class EulerCurcuit {
 		if (isSC() == false)
 			return false;
 
-		for (int i = 0; i < graph.noOfVertices; i++)
+		for (int i = 0; i < graph.V; i++)
 			if (graph.adj[i].size() != in[i])
 				return false;
 

@@ -15,18 +15,18 @@ public class TopologicalSorting {
 				topologicalUtil(g, visited, i, stack);
 			}
 		}
-		stack.push(new Integer(v));
+		stack.push(v);
 	}
 
 	public void topologicalSort(Graph graph) {
-		boolean[] visited = new boolean[graph.noOfVertices];
+		boolean[] visited = new boolean[graph.V];
 
 		Stack stack = new Stack();
 		for (int i = 0; i < visited.length; i++) {
 			visited[i] = false;
 
 		}
-		for (int j = 0; j < graph.noOfVertices; j++) {
+		for (int j = 0; j < graph.V; j++) {
 			if(!visited[j])
 			topologicalUtil(graph, visited, j, stack);
 		}

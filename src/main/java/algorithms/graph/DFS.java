@@ -5,8 +5,8 @@ import java.util.Iterator;
 public class DFS {
 
 	public void dfeGraph(Graph graph, int start) {
-		boolean[] visited = new boolean[graph.noOfVertices];
-		for(int i=0;i<graph.noOfVertices;i++){
+		boolean[] visited = new boolean[graph.V];
+		for(int i=0;i<graph.V;i++){
 			dfs(graph, i, visited);
 		}
 

@@ -21,10 +21,10 @@ public class FindACycleInGraph {
 	}
 	
 	public boolean cyclic(Graph graph){
-		boolean[] recStack= new boolean[graph.noOfVertices];
-		boolean[] visited= new boolean[graph.noOfVertices];
+		boolean[] recStack= new boolean[graph.V];
+		boolean[] visited= new boolean[graph.V];
 		
-		for(int i=0;i<graph.noOfVertices;i++){
+		for(int i=0;i<graph.V;i++){
 			if(isCyclicUtil(graph, visited, recStack, i)){
 				return true;
 			}

@@ -1,10 +1,10 @@
 package main.java.amazon;
 
+import main.java.algorithms.graph.Graph;
+
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
-
-import main.java.algorithms.graph.Graph;
 
 public class FindNumberOfEmployeesUnderEachManager {
 	

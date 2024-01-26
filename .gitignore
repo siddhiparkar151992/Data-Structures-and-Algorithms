@@ -12,6 +12,7 @@ bin
 .idea
 bin/
 .idea/
+.idea
 bin/**
 .idea/**
 # Mobile Tools for Java (J2ME)

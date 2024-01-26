@@ -1,4 +1,4 @@
-package main.java.amazon.arrays;
+package main.java.algorithms.arrays;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -266,6 +266,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.CheckIfstringIsRotationOfEahcOther.executor": "Run",
     "Application.Dijkstra.executor": "Run",
     "Application.FindMaxSubStringWithoutRepeatingChar.executor": "Run",
     "Application.Graph.executor": "Run",
@@ -287,7 +288,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.NQueenProblem">
+  <component name="RunManager" selected="Application.CheckIfstringIsRotationOfEahcOther">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -588,6 +589,20 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
+    <configuration name="CheckIfstringIsRotationOfEahcOther" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.algorithms.strings.CheckIfstringIsRotationOfEahcOther" />
+      <module name="GeeksForGeeks" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.algorithms.strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FindMaxSubStringWithoutRepeatingChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.algorithms.strings.FindMaxSubStringWithoutRepeatingChar" />
       <module name="GeeksForGeeks" />
@@ -644,20 +659,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Permutations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.algorithms.strings.Permutations" />
-      <module name="GeeksForGeeks" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.java.algorithms.strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -701,19 +702,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.CheckIfstringIsRotationOfEahcOther" />
       <item itemvalue="Application.FindMaxSubStringWithoutRepeatingChar" />
       <item itemvalue="Application.MaximumProfitByBuyingSellingStock" />
       <item itemvalue="Application.NQueenProblem" />
       <item itemvalue="Application.Graph" />
-      <item itemvalue="Application.Permutations" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CheckIfstringIsRotationOfEahcOther" />
         <item itemvalue="Application.NQueenProblem" />
         <item itemvalue="Application.FindMaxSubStringWithoutRepeatingChar" />
         <item itemvalue="Application.MaximumProfitByBuyingSellingStock" />
         <item itemvalue="Application.Graph" />
-        <item itemvalue="Application.Permutations" />
       </list>
     </recent_temporary>
   </component>
@@ -775,7 +776,7 @@
       <workItem from="1521726091574" duration="2944000" />
       <workItem from="1521978249802" duration="606000" />
       <workItem from="1554128646013" duration="274000" />
-      <workItem from="1706255044573" duration="15223000" />
+      <workItem from="1706255044573" duration="20191000" />
     </task>
     <servers />
   </component>

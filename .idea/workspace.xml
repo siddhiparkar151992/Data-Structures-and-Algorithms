@@ -267,8 +267,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Dijkstra.executor": "Run",
+    "Application.FindMaxSubStringWithoutRepeatingChar.executor": "Run",
     "Application.Graph.executor": "Run",
     "Application.MaximumProfitByBuyingSellingStock.executor": "Run",
+    "Application.NQueenProblem.executor": "Run",
     "Application.NthFibonacciUsingDP.executor": "Run",
     "Application.Permutations.executor": "Run",
     "Application.PrintAllNodesAtkDistance.executor": "Run",
@@ -285,7 +287,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.FindMaxSubStringWithoutRepeatingChar">
+  <component name="RunManager" selected="Application.NQueenProblem">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -628,13 +630,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NthFibonacciUsingDP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.algorithms.arrays.NthFibonacciUsingDP" />
+    <configuration name="NQueenProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.algorithms.backtracking.NQueenProblem" />
       <module name="GeeksForGeeks" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.algorithms.arrays.*" />
+          <option name="PATTERN" value="main.java.algorithms.backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -701,17 +703,17 @@
     <list>
       <item itemvalue="Application.FindMaxSubStringWithoutRepeatingChar" />
       <item itemvalue="Application.MaximumProfitByBuyingSellingStock" />
+      <item itemvalue="Application.NQueenProblem" />
       <item itemvalue="Application.Graph" />
-      <item itemvalue="Application.NthFibonacciUsingDP" />
       <item itemvalue="Application.Permutations" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NQueenProblem" />
         <item itemvalue="Application.FindMaxSubStringWithoutRepeatingChar" />
         <item itemvalue="Application.MaximumProfitByBuyingSellingStock" />
         <item itemvalue="Application.Graph" />
         <item itemvalue="Application.Permutations" />
-        <item itemvalue="Application.NthFibonacciUsingDP" />
       </list>
     </recent_temporary>
   </component>
@@ -773,7 +775,7 @@
       <workItem from="1521726091574" duration="2944000" />
       <workItem from="1521978249802" duration="606000" />
       <workItem from="1554128646013" duration="274000" />
-      <workItem from="1706255044573" duration="6618000" />
+      <workItem from="1706255044573" duration="15223000" />
     </task>
     <servers />
   </component>
@@ -871,6 +873,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/algorithms/arrays/RotateMatrixClockwise.java</url>
           <line>11</line>
           <option name="timeStamp" value="287" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithms/backtracking/NQueenProblem.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="288" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

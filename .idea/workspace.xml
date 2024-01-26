@@ -5,20 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5c907fa-1fb0-4834-8527-5c9f37c3f54a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/java/algorithm/morganstanley/Dijkstra.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/java/algorithm/morganstanley/Dijkstra.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/java/algorithms/graph/DFS.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/java/algorithms/graph/DFS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/java/algorithms/graph/FindACycleInGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/java/algorithms/graph/FindACycleInGraph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/java/algorithms/graph/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/java/algorithms/graph/Graph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/java/algorithms/graph/TopologicalSorting.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/java/algorithms/graph/TopologicalSorting.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/java/amazon/EulerCurcuit.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/java/amazon/EulerCurcuit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm/morganstanley/Dijkstra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm/morganstanley/Dijkstra.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithms/graph/DFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithms/graph/DFS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithms/graph/FindACycleInGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithms/graph/FindACycleInGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithms/graph/Graph.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithms/graph/TopologicalSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithms/graph/TopologicalSorting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/amazon/EulerCurcuit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/amazon/EulerCurcuit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/amazon/FindNumberOfEmployeesUnderEachManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/amazon/FindNumberOfEmployeesUnderEachManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/amazon/arrays/GenerateConsecutiveNumFromNWith1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithms/arrays/GenerateConsecutiveNumFromNWith1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,6 +138,12 @@
       <replace>LList</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -212,15 +207,22 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1370" />
     <option name="height" value="744" />
   </component>
+  <component name="ProjectId" id="2bU1pedYIfZPGRqXJuuUZMNICht" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -260,6 +262,10 @@
       <pane id="PackagesPane" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Dijkstra.executor": "Run",
@@ -269,8 +275,15 @@
     "Application.PrintAllNodesAtkDistance.executor": "Run",
     "Application.RotateMatrixClockwise.executor": "Run",
     "Application.main.java.algorithms.heap.HeapSort.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RunManager" selected="Application.Graph">
@@ -703,6 +716,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -760,6 +774,7 @@
       <workItem from="1521726091574" duration="2944000" />
       <workItem from="1521978249802" duration="606000" />
       <workItem from="1554128646013" duration="274000" />
+      <workItem from="1706255044573" duration="649000" />
     </task>
     <servers />
   </component>
@@ -801,6 +816,9 @@
       <window_info anchor="right" id="Data View" order="7" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

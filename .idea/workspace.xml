@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5c907fa-1fb0-4834-8527-5c9f37c3f54a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/amazon/arrays/GenerateConsecutiveNumFromNWith1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithms/arrays/GenerateConsecutiveNumFromNWith1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -270,6 +268,7 @@
   "keyToString": {
     "Application.Dijkstra.executor": "Run",
     "Application.Graph.executor": "Run",
+    "Application.MaximumProfitByBuyingSellingStock.executor": "Run",
     "Application.NthFibonacciUsingDP.executor": "Run",
     "Application.Permutations.executor": "Run",
     "Application.PrintAllNodesAtkDistance.executor": "Run",
@@ -286,7 +285,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Graph">
+  <component name="RunManager" selected="Application.FindMaxSubStringWithoutRepeatingChar">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -587,13 +586,13 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
-    <configuration name="Dijkstra" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.algorithm.morganstanley.Dijkstra" />
+    <configuration name="FindMaxSubStringWithoutRepeatingChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.algorithms.strings.FindMaxSubStringWithoutRepeatingChar" />
       <module name="GeeksForGeeks" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.algorithm.morganstanley.*" />
+          <option name="PATTERN" value="main.java.algorithms.strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -608,6 +607,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="main.java.algorithms.graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaximumProfitByBuyingSellingStock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.algorithms.arrays.MaximumProfitByBuyingSellingStock" />
+      <module name="GeeksForGeeks" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.algorithms.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -649,20 +662,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main.java.algorithms.heap.HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.algorithms.heap.HeapSort" />
-      <module name="GeeksForGeeks" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.java.algorithms.heap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -700,19 +699,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Dijkstra" />
+      <item itemvalue="Application.FindMaxSubStringWithoutRepeatingChar" />
+      <item itemvalue="Application.MaximumProfitByBuyingSellingStock" />
       <item itemvalue="Application.Graph" />
       <item itemvalue="Application.NthFibonacciUsingDP" />
       <item itemvalue="Application.Permutations" />
-      <item itemvalue="Application.main.java.algorithms.heap.HeapSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindMaxSubStringWithoutRepeatingChar" />
+        <item itemvalue="Application.MaximumProfitByBuyingSellingStock" />
         <item itemvalue="Application.Graph" />
         <item itemvalue="Application.Permutations" />
         <item itemvalue="Application.NthFibonacciUsingDP" />
-        <item itemvalue="Application.Dijkstra" />
-        <item itemvalue="Application.main.java.algorithms.heap.HeapSort" />
       </list>
     </recent_temporary>
   </component>
@@ -774,7 +773,7 @@
       <workItem from="1521726091574" duration="2944000" />
       <workItem from="1521978249802" duration="606000" />
       <workItem from="1554128646013" duration="274000" />
-      <workItem from="1706255044573" duration="649000" />
+      <workItem from="1706255044573" duration="6618000" />
     </task>
     <servers />
   </component>

@@ -281,9 +281,10 @@
     "Application.NthFibonacciUsingDP.executor": "Run",
     "Application.Permutations.executor": "Run",
     "Application.PrintAllNodesAtkDistance.executor": "Run",
-    "Application.RatInAMaze.executor": "Debug",
+    "Application.RatInAMaze.executor": "Run",
     "Application.RotateMatrixClockwise.executor": "Run",
     "Application.TrappingRainWater.executor": "Run",
+    "Application.WordBreakProblem.executor": "Run",
     "Application.main.java.algorithms.heap.HeapSort.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -296,7 +297,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.RatInAMaze">
+  <component name="RunManager" selected="Application.WordBreakProblem">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -597,20 +598,6 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
-    <configuration name="FindAllSubStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.algorithms.strings.FindAllSubStrings" />
-      <module name="GeeksForGeeks" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.java.algorithms.strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="KnapsackProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.algorithms.KnapsackProblem" />
       <module name="GeeksForGeeks" />
@@ -667,6 +654,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WordBreakProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.algorithms.WordBreakProblem" />
+      <module name="GeeksForGeeks" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -712,17 +713,17 @@
     <list>
       <item itemvalue="Application.KnapsackProblem" />
       <item itemvalue="Application.RatInAMaze" />
+      <item itemvalue="Application.WordBreakProblem" />
       <item itemvalue="Application.LargestRectangularAreaInHistogram" />
-      <item itemvalue="Application.FindAllSubStrings" />
       <item itemvalue="Application.LongestPalindromicSubstring" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WordBreakProblem" />
         <item itemvalue="Application.RatInAMaze" />
         <item itemvalue="Application.KnapsackProblem" />
         <item itemvalue="Application.LargestRectangularAreaInHistogram" />
         <item itemvalue="Application.LongestPalindromicSubstring" />
-        <item itemvalue="Application.FindAllSubStrings" />
       </list>
     </recent_temporary>
   </component>
@@ -788,7 +789,7 @@
       <workItem from="1706349014439" duration="6601000" />
       <workItem from="1706373101131" duration="9036000" />
       <workItem from="1706443034265" duration="3246000" />
-      <workItem from="1706462162684" duration="8995000" />
+      <workItem from="1706462162684" duration="12191000" />
     </task>
     <servers />
   </component>
@@ -954,13 +955,28 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/algorithms/arrays/RatInAMaze.java</url>
-          <line>22</line>
+          <line>23</line>
           <option name="timeStamp" value="309" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/algorithms/arrays/RatInAMaze.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="310" />
+          <line>11</line>
+          <option name="timeStamp" value="311" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithms/WordBreakProblem.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="317" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithms/WordBreakProblem.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="318" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithms/WordBreakProblem.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="326" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

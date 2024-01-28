@@ -281,6 +281,7 @@
     "Application.NthFibonacciUsingDP.executor": "Run",
     "Application.Permutations.executor": "Run",
     "Application.PrintAllNodesAtkDistance.executor": "Run",
+    "Application.RatInAMaze.executor": "Debug",
     "Application.RotateMatrixClockwise.executor": "Run",
     "Application.TrappingRainWater.executor": "Run",
     "Application.main.java.algorithms.heap.HeapSort.executor": "Run",
@@ -295,7 +296,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.KnapsackProblem">
+  <component name="RunManager" selected="Application.RatInAMaze">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -652,8 +653,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumSumRactangleInMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.algorithms.arrays.MaximumSumRactangleInMatrix" />
+    <configuration name="RatInAMaze" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.algorithms.arrays.RatInAMaze" />
       <module name="GeeksForGeeks" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -710,18 +711,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.KnapsackProblem" />
+      <item itemvalue="Application.RatInAMaze" />
       <item itemvalue="Application.LargestRectangularAreaInHistogram" />
       <item itemvalue="Application.FindAllSubStrings" />
       <item itemvalue="Application.LongestPalindromicSubstring" />
-      <item itemvalue="Application.MaximumSumRactangleInMatrix" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RatInAMaze" />
         <item itemvalue="Application.KnapsackProblem" />
         <item itemvalue="Application.LargestRectangularAreaInHistogram" />
         <item itemvalue="Application.LongestPalindromicSubstring" />
         <item itemvalue="Application.FindAllSubStrings" />
-        <item itemvalue="Application.MaximumSumRactangleInMatrix" />
       </list>
     </recent_temporary>
   </component>
@@ -787,7 +788,7 @@
       <workItem from="1706349014439" duration="6601000" />
       <workItem from="1706373101131" duration="9036000" />
       <workItem from="1706443034265" duration="3246000" />
-      <workItem from="1706462162684" duration="6414000" />
+      <workItem from="1706462162684" duration="8995000" />
     </task>
     <servers />
   </component>
@@ -950,6 +951,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/algorithms/KnapsackProblem.java</url>
           <line>21</line>
           <option name="timeStamp" value="308" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithms/arrays/RatInAMaze.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="309" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithms/arrays/RatInAMaze.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="310" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

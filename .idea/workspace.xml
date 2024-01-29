@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5c907fa-1fb0-4834-8527-5c9f37c3f54a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -283,6 +284,7 @@
     "Application.NthFibonacciUsingDP.executor": "Run",
     "Application.Permutations.executor": "Run",
     "Application.PrintAllNodesAtkDistance.executor": "Run",
+    "Application.PrintAllSentencesFromListOfWords.executor": "Run",
     "Application.RatInAMaze.executor": "Run",
     "Application.RotateMatrixClockwise.executor": "Run",
     "Application.ThreeWayPartitionanigAroundArray.executor": "Debug",
@@ -794,7 +796,7 @@
       <workItem from="1706443034265" duration="3246000" />
       <workItem from="1706462162684" duration="14130000" />
       <workItem from="1706513686658" duration="647000" />
-      <workItem from="1706532733414" duration="18583000" />
+      <workItem from="1706532733414" duration="19126000" />
     </task>
     <servers />
   </component>
@@ -1012,6 +1014,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/algorithms/arrays/KthSmallestInSortedMatrix.java</url>
           <line>32</line>
           <option name="timeStamp" value="342" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithms/strings/PrintAllSentencesFromListOfWords.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="343" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

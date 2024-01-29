@@ -14,6 +14,7 @@ public class IsomorphicStrings {
         int[] map = new int[size];
         int[] reversemap = new int[size];
         Arrays.fill(reversemap, -1);
+        Arrays.fill(map, -1);
 
         for (int i = 0; i < str1.length(); i++) {
             char c1 = str1.charAt(i);
@@ -26,9 +27,9 @@ public class IsomorphicStrings {
                 map[c1] = c2;
                 reversemap[c2] = c1;
             } else {
-                if (reversemap[c2] != -1 || map[c1] != c2) {
+                if (reversemap[c2] != c1 || map[c1] != c2) {
                     return false;
-                } 
+                }
             }
         }
         return true;
@@ -36,7 +37,7 @@ public class IsomorphicStrings {
 
     public static void main(String... args) {
         System.out.println(
-                isIsomorphic("aabcccfg", "xxyhhhxy")
+                isIsomorphic("aabc", "xxyh")
         );
     }
 }

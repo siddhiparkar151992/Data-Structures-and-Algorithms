@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5c907fa-1fb0-4834-8527-5c9f37c3f54a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithms/strings/IsomorphicStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithms/strings/IsomorphicStrings.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -796,7 +796,7 @@
       <workItem from="1706443034265" duration="3246000" />
       <workItem from="1706462162684" duration="14130000" />
       <workItem from="1706513686658" duration="647000" />
-      <workItem from="1706532733414" duration="22106000" />
+      <workItem from="1706532733414" duration="22411000" />
     </task>
     <servers />
   </component>
@@ -1022,13 +1022,38 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/algorithms/strings/IsomorphicStrings.java</url>
-          <line>21</line>
+          <line>22</line>
           <option name="timeStamp" value="344" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/algorithms/strings/IsomorphicStrings.java</url>
-          <line>25</line>
+          <line>26</line>
           <option name="timeStamp" value="345" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithms/strings/IsomorphicStrings.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="346" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithms/strings/IsomorphicStrings.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="347" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithms/strings/IsomorphicStrings.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="348" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithms/strings/IsomorphicStrings.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="349" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithms/strings/IsomorphicStrings.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="350" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

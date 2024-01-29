@@ -269,10 +269,12 @@
     "Application.CheckIfstringIsRotationOfEahcOther.executor": "Run",
     "Application.Dijkstra.executor": "Run",
     "Application.FindAllSubStrings.executor": "Run",
+    "Application.FindCommonElemInRowMatrix.executor": "Run",
     "Application.FindMaxSubStringWithoutRepeatingChar.executor": "Run",
     "Application.FindPOsitiveSmallestMissingNo.executor": "Run",
     "Application.Graph.executor": "Run",
     "Application.KnapsackProblem.executor": "Run",
+    "Application.KthSmallestInSortedMatrix.executor": "Run",
     "Application.LargestRectangularAreaInHistogram.executor": "Run",
     "Application.LongestPalindromicSubstring.executor": "Run",
     "Application.MaximumProfitByBuyingSellingStock.executor": "Run",
@@ -283,6 +285,7 @@
     "Application.PrintAllNodesAtkDistance.executor": "Run",
     "Application.RatInAMaze.executor": "Run",
     "Application.RotateMatrixClockwise.executor": "Run",
+    "Application.ThreeWayPartitionanigAroundArray.executor": "Debug",
     "Application.TrappingRainWater.executor": "Run",
     "Application.WordBreakProblem.executor": "Run",
     "Application.main.java.algorithms.heap.HeapSort.executor": "Run",
@@ -297,7 +300,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.WordBreakProblem">
+  <component name="RunManager" selected="Application.PrintAllSentencesFromListOfWords">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -598,13 +601,13 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
-    <configuration name="KnapsackProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.algorithms.KnapsackProblem" />
+    <configuration name="FindCommonElemInRowMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.algorithms.arrays.FindCommonElemInRowMatrix" />
       <module name="GeeksForGeeks" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.algorithms.*" />
+          <option name="PATTERN" value="main.java.algorithms.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -612,13 +615,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LargestRectangularAreaInHistogram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.algorithms.stack.LargestRectangularAreaInHistogram" />
+    <configuration name="KthSmallestInSortedMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.algorithms.arrays.KthSmallestInSortedMatrix" />
       <module name="GeeksForGeeks" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.algorithms.stack.*" />
+          <option name="PATTERN" value="main.java.algorithms.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -626,8 +629,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestPalindromicSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.algorithms.strings.LongestPalindromicSubstring" />
+    <configuration name="PrintAllSentencesFromListOfWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.algorithms.strings.PrintAllSentencesFromListOfWords" />
       <module name="GeeksForGeeks" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -640,8 +643,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RatInAMaze" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.algorithms.arrays.RatInAMaze" />
+    <configuration name="ThreeWayPartitionanigAroundArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.algorithms.arrays.ThreeWayPartitionanigAroundArray" />
       <module name="GeeksForGeeks" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -711,19 +714,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.KnapsackProblem" />
-      <item itemvalue="Application.RatInAMaze" />
+      <item itemvalue="Application.FindCommonElemInRowMatrix" />
+      <item itemvalue="Application.KthSmallestInSortedMatrix" />
+      <item itemvalue="Application.PrintAllSentencesFromListOfWords" />
+      <item itemvalue="Application.ThreeWayPartitionanigAroundArray" />
       <item itemvalue="Application.WordBreakProblem" />
-      <item itemvalue="Application.LargestRectangularAreaInHistogram" />
-      <item itemvalue="Application.LongestPalindromicSubstring" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrintAllSentencesFromListOfWords" />
+        <item itemvalue="Application.KthSmallestInSortedMatrix" />
+        <item itemvalue="Application.FindCommonElemInRowMatrix" />
+        <item itemvalue="Application.ThreeWayPartitionanigAroundArray" />
         <item itemvalue="Application.WordBreakProblem" />
-        <item itemvalue="Application.RatInAMaze" />
-        <item itemvalue="Application.KnapsackProblem" />
-        <item itemvalue="Application.LargestRectangularAreaInHistogram" />
-        <item itemvalue="Application.LongestPalindromicSubstring" />
       </list>
     </recent_temporary>
   </component>
@@ -789,7 +792,9 @@
       <workItem from="1706349014439" duration="6601000" />
       <workItem from="1706373101131" duration="9036000" />
       <workItem from="1706443034265" duration="3246000" />
-      <workItem from="1706462162684" duration="12191000" />
+      <workItem from="1706462162684" duration="14130000" />
+      <workItem from="1706513686658" duration="647000" />
+      <workItem from="1706532733414" duration="18583000" />
     </task>
     <servers />
   </component>
@@ -977,6 +982,36 @@
           <url>file://$PROJECT_DIR$/src/main/java/algorithms/WordBreakProblem.java</url>
           <line>19</line>
           <option name="timeStamp" value="326" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithms/arrays/ThreeWayPartitionanigAroundArray.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="328" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithms/arrays/FindCommonElemInRowMatrix.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="336" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithms/arrays/KthSmallestInSortedMatrix.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="339" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithms/arrays/KthSmallestInSortedMatrix.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="340" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithms/arrays/KthSmallestInSortedMatrix.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="341" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithms/arrays/KthSmallestInSortedMatrix.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="342" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

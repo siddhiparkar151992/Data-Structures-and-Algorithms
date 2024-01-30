@@ -281,6 +281,7 @@
     "Application.KthSmallestInSortedMatrix.executor": "Run",
     "Application.LargestRectangularAreaInHistogram.executor": "Run",
     "Application.LongestPalindromicSubstring.executor": "Run",
+    "Application.LongestRepeatingSubsequence.executor": "Run",
     "Application.MaximumProfitByBuyingSellingStock.executor": "Run",
     "Application.MaximumSumRactangleInMatrix.executor": "Debug",
     "Application.NQueenProblem.executor": "Run",
@@ -291,6 +292,7 @@
     "Application.RatInAMaze.executor": "Run",
     "Application.RearrangeCharactersInAString.executor": "Debug",
     "Application.RotateMatrixClockwise.executor": "Run",
+    "Application.ShortestCommonSubsequence.executor": "Run",
     "Application.ThreeWayPartitionanigAroundArray.executor": "Debug",
     "Application.TrappingRainWater.executor": "Run",
     "Application.WordBreakProblem.executor": "Run",
@@ -306,7 +308,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ShortestCommonSubsequence">
+  <component name="RunManager" selected="Application.LongestRepeatingSubsequence">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -649,8 +651,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RearrangeCharactersInAString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.algorithms.strings.RearrangeCharactersInAString" />
+    <configuration name="LongestRepeatingSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.algorithms.strings.LongestRepeatingSubsequence" />
       <module name="GeeksForGeeks" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -723,16 +725,16 @@
       <item itemvalue="Application.FindPalindromicSubstring" />
       <item itemvalue="Application.InorderTraversalUsingStack" />
       <item itemvalue="Application.IsBinaryTreeBST" />
-      <item itemvalue="Application.RearrangeCharactersInAString" />
+      <item itemvalue="Application.LongestRepeatingSubsequence" />
       <item itemvalue="Application.ShortestCommonSubsequence" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestRepeatingSubsequence" />
         <item itemvalue="Application.ShortestCommonSubsequence" />
         <item itemvalue="Application.FindPalindromicSubstring" />
         <item itemvalue="Application.IsBinaryTreeBST" />
         <item itemvalue="Application.InorderTraversalUsingStack" />
-        <item itemvalue="Application.RearrangeCharactersInAString" />
       </list>
     </recent_temporary>
   </component>
@@ -801,7 +803,7 @@
       <workItem from="1706462162684" duration="14130000" />
       <workItem from="1706513686658" duration="647000" />
       <workItem from="1706532733414" duration="22969000" />
-      <workItem from="1706606547236" duration="10349000" />
+      <workItem from="1706606547236" duration="12103000" />
     </task>
     <servers />
   </component>

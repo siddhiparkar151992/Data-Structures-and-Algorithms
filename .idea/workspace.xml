@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5c907fa-1fb0-4834-8527-5c9f37c3f54a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithms/strings/IsomorphicStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithms/strings/IsomorphicStrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -272,7 +272,10 @@
     "Application.FindCommonElemInRowMatrix.executor": "Run",
     "Application.FindMaxSubStringWithoutRepeatingChar.executor": "Run",
     "Application.FindPOsitiveSmallestMissingNo.executor": "Run",
+    "Application.FindPalindromicSubstring.executor": "Run",
     "Application.Graph.executor": "Run",
+    "Application.InorderTraversalUsingStack.executor": "Run",
+    "Application.IsBinaryTreeBST.executor": "Run",
     "Application.IsomorphicStrings.executor": "Run",
     "Application.KnapsackProblem.executor": "Run",
     "Application.KthSmallestInSortedMatrix.executor": "Run",
@@ -286,6 +289,7 @@
     "Application.PrintAllNodesAtkDistance.executor": "Run",
     "Application.PrintAllSentencesFromListOfWords.executor": "Run",
     "Application.RatInAMaze.executor": "Run",
+    "Application.RearrangeCharactersInAString.executor": "Debug",
     "Application.RotateMatrixClockwise.executor": "Run",
     "Application.ThreeWayPartitionanigAroundArray.executor": "Debug",
     "Application.TrappingRainWater.executor": "Run",
@@ -302,7 +306,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.IsomorphicStrings">
+  <component name="RunManager" selected="Application.ShortestCommonSubsequence">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -603,22 +607,8 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
-    <configuration name="FindCommonElemInRowMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.algorithms.arrays.FindCommonElemInRowMatrix" />
-      <module name="GeeksForGeeks" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.java.algorithms.arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IsomorphicStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.algorithms.strings.IsomorphicStrings" />
+    <configuration name="FindPalindromicSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.algorithms.strings.FindPalindromicSubstring" />
       <module name="GeeksForGeeks" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -631,13 +621,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KthSmallestInSortedMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.algorithms.arrays.KthSmallestInSortedMatrix" />
+    <configuration name="InorderTraversalUsingStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.algorithms.binarytree.InorderTraversalUsingStack" />
       <module name="GeeksForGeeks" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.algorithms.arrays.*" />
+          <option name="PATTERN" value="main.java.algorithms.binarytree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -645,8 +635,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintAllSentencesFromListOfWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.algorithms.strings.PrintAllSentencesFromListOfWords" />
+    <configuration name="IsBinaryTreeBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.algorithms.binarytree.IsBinaryTreeBST" />
+      <module name="GeeksForGeeks" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.algorithms.binarytree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RearrangeCharactersInAString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.algorithms.strings.RearrangeCharactersInAString" />
       <module name="GeeksForGeeks" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -659,13 +663,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreeWayPartitionanigAroundArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.algorithms.arrays.ThreeWayPartitionanigAroundArray" />
+    <configuration name="ShortestCommonSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.algorithms.strings.ShortestCommonSubsequence" />
       <module name="GeeksForGeeks" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.algorithms.arrays.*" />
+          <option name="PATTERN" value="main.java.algorithms.strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -716,19 +720,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.FindCommonElemInRowMatrix" />
-      <item itemvalue="Application.IsomorphicStrings" />
-      <item itemvalue="Application.KthSmallestInSortedMatrix" />
-      <item itemvalue="Application.PrintAllSentencesFromListOfWords" />
-      <item itemvalue="Application.ThreeWayPartitionanigAroundArray" />
+      <item itemvalue="Application.FindPalindromicSubstring" />
+      <item itemvalue="Application.InorderTraversalUsingStack" />
+      <item itemvalue="Application.IsBinaryTreeBST" />
+      <item itemvalue="Application.RearrangeCharactersInAString" />
+      <item itemvalue="Application.ShortestCommonSubsequence" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.IsomorphicStrings" />
-        <item itemvalue="Application.PrintAllSentencesFromListOfWords" />
-        <item itemvalue="Application.KthSmallestInSortedMatrix" />
-        <item itemvalue="Application.FindCommonElemInRowMatrix" />
-        <item itemvalue="Application.ThreeWayPartitionanigAroundArray" />
+        <item itemvalue="Application.ShortestCommonSubsequence" />
+        <item itemvalue="Application.FindPalindromicSubstring" />
+        <item itemvalue="Application.IsBinaryTreeBST" />
+        <item itemvalue="Application.InorderTraversalUsingStack" />
+        <item itemvalue="Application.RearrangeCharactersInAString" />
       </list>
     </recent_temporary>
   </component>
@@ -796,7 +800,8 @@
       <workItem from="1706443034265" duration="3246000" />
       <workItem from="1706462162684" duration="14130000" />
       <workItem from="1706513686658" duration="647000" />
-      <workItem from="1706532733414" duration="22411000" />
+      <workItem from="1706532733414" duration="22969000" />
+      <workItem from="1706606547236" duration="10349000" />
     </task>
     <servers />
   </component>
@@ -1054,6 +1059,46 @@
           <url>file://$PROJECT_DIR$/src/main/java/algorithms/strings/IsomorphicStrings.java</url>
           <line>23</line>
           <option name="timeStamp" value="350" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithms/strings/RearrangeCharactersInAString.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="351" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithms/strings/FindPalindromicSubstring.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="352" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithms/strings/FindPalindromicSubstring.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="353" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithms/strings/FindPalindromicSubstring.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="354" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithms/strings/FindPalindromicSubstring.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="355" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithms/strings/FindPalindromicSubstring.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="356" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithms/strings/FindPalindromicSubstring.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="357" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithms/strings/FindPalindromicSubstring.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="358" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,23 +1,32 @@
 package main.java.algorithms.arrays;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class NoOfSubarraysHavingSumK {
 
-    public int findSubarraysUtil(int[] arr, int i, int j,int k, int csum) {
-        if (k == csum) {
-            return 1;
-        }
-        if (i >= arr.length) {
-            return 0;
-        }
-        int sum=0;
-        for (int h = i + 1; j < arr.length; j++) {
-            sum+=
-        }
-        return findSubarraysUtil(arr, i+1, arr.length, k, csum);
-    }
+
 
     public void findSubarray(int[] arr, int k) {
+        int csum = 0;
+        int pre = 0;
 
+        int res =0;
+
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int i=0;i<arr.length;i++) {
+
+            csum+=arr[i];
+
+            pre = csum-k;
+
+            if (map.containsKey(pre)) {
+                res+=map.get(pre);
+            }
+
+            map.put(csum, map.getOrDefault(csum, 0)+1);
+        }
+        
 
     }
 

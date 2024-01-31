@@ -286,6 +286,7 @@
     "Application.MaximumDepthOfBinaryTree.executor": "Run",
     "Application.MaximumProfitByBuyingSellingStock.executor": "Run",
     "Application.MaximumSumRactangleInMatrix.executor": "Debug",
+    "Application.MinimumNumberOfPlatforms.executor": "Run",
     "Application.NQueenProblem.executor": "Run",
     "Application.NthFibonacciUsingDP.executor": "Run",
     "Application.Permutations.executor": "Run",
@@ -296,6 +297,7 @@
     "Application.RearrangeCharactersInAString.executor": "Debug",
     "Application.RotateMatrixClockwise.executor": "Run",
     "Application.ShortestCommonSubsequence.executor": "Run",
+    "Application.StronglylConnectedComponents.executor": "Run",
     "Application.ThreeWayPartitionanigAroundArray.executor": "Debug",
     "Application.TrappingRainWater.executor": "Run",
     "Application.WordBreakProblem.executor": "Run",
@@ -311,7 +313,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.PrintPrimeFactorsOfNumber">
+  <component name="RunManager" selected="Application.StronglylConnectedComponents">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -626,20 +628,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestRepeatingSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.algorithms.strings.LongestRepeatingSubsequence" />
-      <module name="GeeksForGeeks" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.java.algorithms.strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MaximumDepthOfBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.algorithms.binarytree.MaximumDepthOfBinaryTree" />
       <module name="GeeksForGeeks" />
@@ -647,6 +635,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="main.java.algorithms.binarytree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinimumNumberOfPlatforms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.algorithms.arrays.MinimumNumberOfPlatforms" />
+      <module name="GeeksForGeeks" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.algorithms.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -668,13 +670,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShortestCommonSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.algorithms.strings.ShortestCommonSubsequence" />
+    <configuration name="StronglylConnectedComponents" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.algorithms.graph.StronglylConnectedComponents" />
       <module name="GeeksForGeeks" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.algorithms.strings.*" />
+          <option name="PATTERN" value="main.java.algorithms.graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -725,19 +727,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.MinimumNumberOfPlatforms" />
+      <item itemvalue="Application.StronglylConnectedComponents" />
       <item itemvalue="Application.EvaluatePostFix" />
-      <item itemvalue="Application.LongestRepeatingSubsequence" />
       <item itemvalue="Application.MaximumDepthOfBinaryTree" />
       <item itemvalue="Application.PrintPrimeFactorsOfNumber" />
-      <item itemvalue="Application.ShortestCommonSubsequence" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StronglylConnectedComponents" />
+        <item itemvalue="Application.MinimumNumberOfPlatforms" />
         <item itemvalue="Application.PrintPrimeFactorsOfNumber" />
         <item itemvalue="Application.EvaluatePostFix" />
         <item itemvalue="Application.MaximumDepthOfBinaryTree" />
-        <item itemvalue="Application.LongestRepeatingSubsequence" />
-        <item itemvalue="Application.ShortestCommonSubsequence" />
       </list>
     </recent_temporary>
   </component>
@@ -807,6 +809,7 @@
       <workItem from="1706513686658" duration="647000" />
       <workItem from="1706532733414" duration="22969000" />
       <workItem from="1706606547236" duration="18536000" />
+      <workItem from="1706710228149" duration="10007000" />
     </task>
     <servers />
   </component>
@@ -1139,6 +1142,36 @@
           <url>file://$PROJECT_DIR$/src/main/java/algorithms/stack/EvaluatePostFix.java</url>
           <line>43</line>
           <option name="timeStamp" value="369" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithms/graph/StronglylConnectedComponents.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="372" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithms/graph/StronglylConnectedComponents.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="373" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithms/graph/StronglylConnectedComponents.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="374" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithms/graph/StronglylConnectedComponents.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="375" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithms/graph/StronglylConnectedComponents.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="379" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algorithms/graph/StronglylConnectedComponents.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="380" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

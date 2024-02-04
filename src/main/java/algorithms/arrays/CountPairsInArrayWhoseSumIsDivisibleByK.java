@@ -11,18 +11,22 @@ public class CountPairsInArrayWhoseSumIsDivisibleByK {
 
         int sum =0;
         int i=0;
-        while (true){
+        while (i < A.length){
             if (freq[k- A[i]] !=0) {
                 sum++;
                 freq[k- A[i]]--;
             }
+            i++;
         }
+
+        return sum;
+
     }
 
     public static void main(String... args) {
-        int A[] = {2, 2, 1, 7, 5, 3};
+        int A[] = {5, 9, 36, 74, 52, 31, 42};
         int n = 6;
-        int K = 4;
+        int K = 3;
         System.out.print(countPairs(A, n, K));
     }
 }

@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c5c907fa-1fb0-4834-8527-5c9f37c3f54a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithms/arrays/CountPairsInArrayWhoseSumIsDivisibleByK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithms/arrays/CountPairsInArrayWhoseSumIsDivisibleByK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithms/arrays/FindAllUniqueMappings.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -264,58 +266,60 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.CheckIfstringIsRotationOfEahcOther.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Dijkstra.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EquilibriamOfArray.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.EvaluatePostFix.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindAllSubStrings.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindCommonElemInRowMatrix.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindMaxSubStringWithoutRepeatingChar.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindPOsitiveSmallestMissingNo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindPalindromicSubstring.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Graph.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InorderTraversalUsingStack.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IsBinaryTreeBST.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IsomorphicStrings.executor&quot;: &quot;Run&quot;,
-    &quot;Application.KnapsackProblem.executor&quot;: &quot;Run&quot;,
-    &quot;Application.KthSmallestInSortedMatrix.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LargestRectangularAreaInHistogram.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LongestPalindromicSubstring.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LongestRepeatingSubsequence.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaximumDepthOfBinaryTree.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaximumProfitByBuyingSellingStock.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaximumSumRactangleInMatrix.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MinimumNumberOfPlatforms.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NQueenProblem.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NthFibonacciUsingDP.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Permutations.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Practice.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.PrintAllNodesAtkDistance.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PrintAllSentencesFromListOfWords.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PrintPrimeFactorsOfNumber.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RatInAMaze.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RearrangeCharactersInAString.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.RotateMatrixClockwise.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ShortestCommonSubsequence.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StronglylConnectedComponents.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreeWayPartitionanigAroundArray.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.TrappingRainWater.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WordBreakProblem.executor&quot;: &quot;Run&quot;,
-    &quot;Application.main.java.algorithms.heap.HeapSort.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CheckIfstringIsRotationOfEahcOther.executor": "Run",
+    "Application.CountPairsInArrayWhoseSumIsDivisibleByK.executor": "Run",
+    "Application.Dijkstra.executor": "Run",
+    "Application.EquilibriamOfArray.executor": "Debug",
+    "Application.EvaluatePostFix.executor": "Run",
+    "Application.FindAllSubStrings.executor": "Run",
+    "Application.FindCommonElemInRowMatrix.executor": "Run",
+    "Application.FindMaxSubStringWithoutRepeatingChar.executor": "Run",
+    "Application.FindPOsitiveSmallestMissingNo.executor": "Run",
+    "Application.FindPalindromicSubstring.executor": "Run",
+    "Application.Graph.executor": "Run",
+    "Application.InorderTraversalUsingStack.executor": "Run",
+    "Application.IsBinaryTreeBST.executor": "Run",
+    "Application.IsomorphicStrings.executor": "Run",
+    "Application.KnapsackProblem.executor": "Run",
+    "Application.KthSmallestInSortedMatrix.executor": "Run",
+    "Application.LargestRectangularAreaInHistogram.executor": "Run",
+    "Application.LongestPalindromicSubstring.executor": "Run",
+    "Application.LongestRepeatingSubsequence.executor": "Run",
+    "Application.MaximumDepthOfBinaryTree.executor": "Run",
+    "Application.MaximumProfitByBuyingSellingStock.executor": "Run",
+    "Application.MaximumSumRactangleInMatrix.executor": "Debug",
+    "Application.MinimumNumberOfPlatforms.executor": "Run",
+    "Application.NQueenProblem.executor": "Run",
+    "Application.NthFibonacciUsingDP.executor": "Run",
+    "Application.PalindromeTillN.executor": "Run",
+    "Application.Permutations.executor": "Run",
+    "Application.Practice.executor": "Debug",
+    "Application.PrintAllNodesAtkDistance.executor": "Run",
+    "Application.PrintAllSentencesFromListOfWords.executor": "Run",
+    "Application.PrintPrimeFactorsOfNumber.executor": "Run",
+    "Application.RatInAMaze.executor": "Run",
+    "Application.RearrangeCharactersInAString.executor": "Debug",
+    "Application.RotateMatrixClockwise.executor": "Run",
+    "Application.ShortestCommonSubsequence.executor": "Run",
+    "Application.StronglylConnectedComponents.executor": "Run",
+    "Application.ThreeWayPartitionanigAroundArray.executor": "Debug",
+    "Application.TrappingRainWater.executor": "Run",
+    "Application.WordBreakProblem.executor": "Run",
+    "Application.main.java.algorithms.heap.HeapSort.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.EquilibriamOfArray">
+}]]></component>
+  <component name="RunManager" selected="Application.PalindromeTillN">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -616,6 +620,20 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
+    <configuration name="CountPairsInArrayWhoseSumIsDivisibleByK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.algorithms.arrays.CountPairsInArrayWhoseSumIsDivisibleByK" />
+      <module name="GeeksForGeeks" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.algorithms.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Dijkstra" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.algorithm.morganstanley.Dijkstra" />
       <module name="GeeksForGeeks" />
@@ -644,8 +662,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumNumberOfPlatforms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.algorithms.arrays.MinimumNumberOfPlatforms" />
+    <configuration name="PalindromeTillN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.algorithms.arrays.PalindromeTillN" />
       <module name="GeeksForGeeks" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -665,20 +683,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="main.java.algorithms.arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StronglylConnectedComponents" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.algorithms.graph.StronglylConnectedComponents" />
-      <module name="GeeksForGeeks" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.java.algorithms.graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -729,19 +733,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.CountPairsInArrayWhoseSumIsDivisibleByK" />
+      <item itemvalue="Application.PalindromeTillN" />
       <item itemvalue="Application.Dijkstra" />
       <item itemvalue="Application.EquilibriamOfArray" />
       <item itemvalue="Application.Practice" />
-      <item itemvalue="Application.MinimumNumberOfPlatforms" />
-      <item itemvalue="Application.StronglylConnectedComponents" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PalindromeTillN" />
+        <item itemvalue="Application.CountPairsInArrayWhoseSumIsDivisibleByK" />
         <item itemvalue="Application.EquilibriamOfArray" />
         <item itemvalue="Application.Dijkstra" />
         <item itemvalue="Application.Practice" />
-        <item itemvalue="Application.StronglylConnectedComponents" />
-        <item itemvalue="Application.MinimumNumberOfPlatforms" />
       </list>
     </recent_temporary>
   </component>
@@ -814,6 +818,7 @@
       <workItem from="1706710228149" duration="13519000" />
       <workItem from="1706777191726" duration="3395000" />
       <workItem from="1706974949378" duration="4477000" />
+      <workItem from="1707048379494" duration="6993000" />
     </task>
     <servers />
   </component>
